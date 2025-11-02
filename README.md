@@ -28,6 +28,7 @@ This repository demonstrates an end-to-end workflow for forecasting financial me
 ## 3. Data  
 - The dataset included (`financial_data.csv`) contains historical financial indicators and target variables.  
 - The dataset contains historical financial and market data for **nine U.S. listed companies**:
+
 | Ticker | Company Name | Sector (example) |
 |---------|---------------|----------------|
 | AAPL | Apple Inc. | Technology |
@@ -37,7 +38,8 @@ This repository demonstrates an end-to-end workflow for forecasting financial me
 | JCI | Johnson Controls International | Industrials |
 | NVDA | NVIDIA Corporation | Technology |
 | UNH | UnitedHealth Group | Healthcare |
-| XOM | Exxon Mobil Corporation | Energy |.  
+| XOM | Exxon Mobil Corporation | Energy |
+
 - Pre-processing steps: missing value handling, feature engineering (lag features, moving averages, technical indicators), train-test splitting (time-series aware), scaling/normalisation.  
 - **Important**: users are encouraged to validate/replace data with their own sources as required for production or real-world usage.
 
